@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @number = params[:number].to_i
     @phrase = params[:phrase]
     @count = 0
-    while @count < @number
+    until @count == @number
       @phrase
       @count = @count+1
     end
