@@ -20,6 +20,6 @@ class App < Sinatra::Base
     @count = 0
     while @count < @number 
       @phrase
-      @count +=1
+      @count = @count+1
     end
   end
