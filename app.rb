@@ -22,4 +22,4 @@ class App < Sinatra::Base
       @phrase
       @count +=1
     end
-end
+  end
